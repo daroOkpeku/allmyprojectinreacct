@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'build',
+1 verbose cli   'beach'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.4
+4 info build C:\react\project\beach\beach
+5 verbose stack Error: ENOENT: no such file or directory, open 'C:\react\project\beach\beach\package.json'
+6 verbose cwd C:\react\project\beach
+7 verbose Windows_NT 6.1.7601
+8 verbose argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "build" "beach"
+9 verbose node v12.18.4
+10 verbose npm  v6.14.6
+11 error code ENOENT
+12 error syscall open
+13 error path C:\react\project\beach\beach\package.json
+14 error errno -4058
+15 error enoent ENOENT: no such file or directory, open 'C:\react\project\beach\beach\package.json'
+16 error enoent This is related to npm not being able to find a file.
+17 verbose exit [ -4058, true ]
