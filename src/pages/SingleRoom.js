@@ -19,7 +19,7 @@ export default class SingleRoom extends Component {
     render() {
         const { getData } = this.context
         const room = getData(this.state.slug);
-        console.log(room)
+
         if (!room) {
             return <div className="error">
                 <h3>room do not exist</h3>
